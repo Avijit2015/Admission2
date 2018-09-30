@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_forward2"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_forward2"
+            android:title="Notice" />
+        <item
+            android:id="@+id/nav_routine"
+            android:icon="@drawable/ic_forward2"
+            android:title="Routine" />
+        <item
+            android:id="@+id/nav_result"
+            android:icon="@drawable/ic_forward2"
+            android:title="Result" />
+        <item
+            android:id="@+id/nav_admissionprocedure"
+            android:icon="@drawable/ic_forward2"
+            android:title="Admission Procedure" />
+    </group>
+
+    <item android:title="Help">
+        <menu>
+            <item
+                android:id="@+id/nav_admissionrequirements"
+                android:icon="@drawable/ic_forward2"
+                android:title="Admission Requirements" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_forward2"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>

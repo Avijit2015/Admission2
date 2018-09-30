@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="261dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="UserName"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="256dp"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="144dp"
+        tools:text="Password" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="175dp"
+        android:layout_height="53dp"
+        android:text="Sign In"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="234dp"
+        android:layout_height="61dp"
+        android:text="Register Now"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="322dp" />
+</LinearLayout>
